@@ -89,7 +89,7 @@ public class FirstFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        getActivity().registerReceiver(receiver,new IntentFilter("SMS sent"));
+        getActivity().registerReceiver(receiver,new IntentFilter("SMS_SENT"));
     }
 
     @Override
